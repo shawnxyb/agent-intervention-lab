@@ -1,0 +1,101 @@
+[project]
+platform = "linux/amd64"
+timezone = "Asia/Shanghai"
+model_access = "existing-codex-chatgpt-login"
+experiments_started = false
+formal_experiments_started = false
+
+[upstream]
+repository = "https://github.com/cooperbench/CooperBench"
+revision = "63b9d44d9f39a02fccf5bf0052db48a917a011fd"
+source_directory = "vendor/CooperBench"
+profile = "official-evaluator-only"
+
+[runtime]
+python = "3.12"
+codex_expected = "0.162.1"
+docker = "29.9.1"
+docker_service = "academic-writing-docker.service"
+docker_storage_subdirectory = "academic-writing-experiment/docker"
+
+[[tasks]]
+name = "outlines"
+role = "pilot"
+repository = "dottxt_ai_outlines_task"
+task_id = 1655
+features = [7, 10]
+base_commit = "4dd7802a8a5021f31dac75bc652f88d410a28675"
+image = "akhatua/cooperbench-dottxt-ai-outlines:task1655"
+
+[[tasks]]
+name = "dirty_equals"
+role = "formal"
+repository = "samuelcolvin_dirty_equals_task"
+task_id = 43
+features = [2, 3]
+base_commit = "593bcccf738ab8b724d7cb860881d74344171f5f"
+image = "akhatua/cooperbench-samuelcolvin-dirty-equals:task43"
+
+[[tasks]]
+name = "click"
+role = "formal"
+repository = "pallets_click_task"
+task_id = 2800
+features = [1, 7]
+base_commit = "d8763b93021c416549b5f8b4b5497234619410db"
+image = "akhatua/cooperbench-pallets-click:task2800"
+
+[[tasks]]
+name = "dspy_8394"
+role = "pilot"
+repository = "dspy_task"
+task_id = 8394
+features = [1, 3]
+base_commit = "3ded7a6266514c1569452b0e26bcd4e75c1ee6db"
+image = "akhatua/cooperbench-dspy:task8394"
+
+[[tasks]]
+name = "dspy_8587"
+role = "pilot"
+repository = "dspy_task"
+task_id = 8587
+features = [1, 4]
+base_commit = "80412ce96d70fdb64dcf2c63940f511d6f89ca44"
+image = "akhatua/cooperbench-dspy:task8587"
+
+[[tasks]]
+name = "click_2068"
+role = "pilot"
+repository = "pallets_click_task"
+task_id = 2068
+features = [2, 5]
+base_commit = "d791537317947448a3960662d00acf160eff2602"
+image = "akhatua/cooperbench-pallets-click:task2068"
+
+[[tasks]]
+name = "datasets_3997"
+role = "pilot"
+repository = "huggingface_datasets_task"
+task_id = 3997
+features = [1, 5]
+base_commit = "e229fade6d1a5b8eedb02370b5e6605b9b8b44aa"
+image = "akhatua/cooperbench-huggingface-datasets:task3997"
+
+[[tasks]]
+name = "dspy_8563"
+role = "pilot"
+repository = "dspy_task"
+task_id = 8563
+features = [2, 6]
+base_commit = "80412ce96d70fdb64dcf2c63940f511d6f89ca44"
+image = "akhatua/cooperbench-dspy:task8563"
+
+[[tasks]]
+name = "chi_26"
+language = "go"
+role = "pilot"
+repository = "go_chi_task"
+task_id = 26
+features = [3, 4]
+base_commit = "9436cc85db0d35be06e66b91b4f74bbc0295b07b"
+image = "akhatua/cooperbench-go-chi:task26"

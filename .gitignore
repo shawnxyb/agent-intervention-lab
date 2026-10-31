@@ -1,0 +1,40 @@
+# Local runtimes, downloaded upstream source and evaluator-only materials
+.venv/
+.tools/
+.cache/
+.local/
+vendor/
+workspaces/
+runs/
+artifacts/
+
+# Secrets and user-specific runtime configuration
+.env
+.env.*
+!.env.example
+auth.json
+*.pem
+*.key
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.idea/
+.vscode/
+
+# LaTeX build intermediates
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+
+# Code-only publication builds and local browser state
+/dist/
+/.playwright-cli/
+# Historical batch data remain local; source adapters are retained.
+/batches/*.json

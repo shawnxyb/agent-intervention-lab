@@ -1,0 +1,83 @@
+[
+  {
+    "name": "outlines",
+    "tag": "akhatua/cooperbench-dottxt-ai-outlines:task1655",
+    "reference": "akhatua/cooperbench-dottxt-ai-outlines@sha256:baf26786e1cdfe9073005228c0ea69d556b140772553bacce054587ec00ab0b0",
+    "digest": "sha256:baf26786e1cdfe9073005228c0ea69d556b140772553bacce054587ec00ab0b0",
+    "index_digest": "sha256:f12f5894b839f9f1bf2e4d2dadfa88331ab6b6e5e2dc1b72c206b4c79ff5d761",
+    "platform": "linux/amd64",
+    "compressed_bytes": 4190125709
+  },
+  {
+    "name": "dirty_equals",
+    "tag": "akhatua/cooperbench-samuelcolvin-dirty-equals:task43",
+    "reference": "akhatua/cooperbench-samuelcolvin-dirty-equals@sha256:6389e650d888f04e0e3f8c1891e96ad1d7b9c7b94c9c479cece4f87b298a64f2",
+    "digest": "sha256:6389e650d888f04e0e3f8c1891e96ad1d7b9c7b94c9c479cece4f87b298a64f2",
+    "index_digest": "sha256:c0d0ab8de32ec280797c0043d29c2904389b786cb8ad9f44fbf7b79032d68926",
+    "platform": "linux/amd64",
+    "compressed_bytes": 257579388
+  },
+  {
+    "name": "click",
+    "tag": "akhatua/cooperbench-pallets-click:task2800",
+    "reference": "akhatua/cooperbench-pallets-click@sha256:f3e6cb251bcdd218666c83e453468ca1358f2c0ce3d06c8522de3b90ffc4fd95",
+    "digest": "sha256:f3e6cb251bcdd218666c83e453468ca1358f2c0ce3d06c8522de3b90ffc4fd95",
+    "index_digest": "sha256:a80b15460f97844a8ac36cadeed51b21fcb68a726e3992374cc9d997fe397260",
+    "platform": "linux/amd64",
+    "compressed_bytes": 255233960
+  },
+  {
+    "name": "dspy_8394",
+    "tag": "akhatua/cooperbench-dspy:task8394",
+    "reference": "akhatua/cooperbench-dspy@sha256:ed152bcf1afd367ede8309ec1184e5ea821e1d7b2f54e8e4ae9a170491b69a0d",
+    "digest": "sha256:ed152bcf1afd367ede8309ec1184e5ea821e1d7b2f54e8e4ae9a170491b69a0d",
+    "index_digest": "sha256:279e1ba7b11fdf418b1519104f6a00a9b0b0cbcfd48b1d509896b4b8d6112f46",
+    "platform": "linux/amd64",
+    "compressed_bytes": 1015221782
+  },
+  {
+    "name": "dspy_8587",
+    "tag": "akhatua/cooperbench-dspy:task8587",
+    "reference": "akhatua/cooperbench-dspy@sha256:2adf7f95b311f937a89b50392efaba4a09388bb8a3dcc7a8b2c36b23ae4b21a8",
+    "digest": "sha256:2adf7f95b311f937a89b50392efaba4a09388bb8a3dcc7a8b2c36b23ae4b21a8",
+    "index_digest": "sha256:8c6774261fed43ebe5f94216e030758defaa91e0c9bb269a275eaecf517d2c2c",
+    "platform": "linux/amd64",
+    "compressed_bytes": 1015257713
+  },
+  {
+    "name": "click_2068",
+    "tag": "akhatua/cooperbench-pallets-click:task2068",
+    "reference": "akhatua/cooperbench-pallets-click@sha256:ccc68eebb563aa84296fe49e5dbd70556ed18c9bc799dc5681e4c30b159ce48f",
+    "digest": "sha256:ccc68eebb563aa84296fe49e5dbd70556ed18c9bc799dc5681e4c30b159ce48f",
+    "index_digest": "sha256:2116cc975812211cdae8b97f63069c666b7fffc490ce0d329f8853e241342386",
+    "platform": "linux/amd64",
+    "compressed_bytes": 260775878
+  },
+  {
+    "name": "datasets_3997",
+    "tag": "akhatua/cooperbench-huggingface-datasets:task3997",
+    "reference": "akhatua/cooperbench-huggingface-datasets@sha256:1e1776eba8a3969217502b90f4360920851f3f3ac3df20782ba1346ce109a115",
+    "digest": "sha256:1e1776eba8a3969217502b90f4360920851f3f3ac3df20782ba1346ce109a115",
+    "index_digest": "sha256:2e013c5193ea3215b8fabaab34102ecbe49937412caccb340c39173c637890eb",
+    "platform": "linux/amd64",
+    "compressed_bytes": 644627584
+  },
+  {
+    "name": "dspy_8563",
+    "tag": "akhatua/cooperbench-dspy:task8563",
+    "reference": "akhatua/cooperbench-dspy@sha256:a6631c075b0a93f9075a98d62dd4fc3f719e294d1ef24d2a525a26d409d19a7d",
+    "digest": "sha256:a6631c075b0a93f9075a98d62dd4fc3f719e294d1ef24d2a525a26d409d19a7d",
+    "index_digest": "sha256:489c5286568a20913d0aafd9c038aebcddbebdcb4ba193dc47b6c51d895d2514",
+    "platform": "linux/amd64",
+    "compressed_bytes": 1015257727
+  },
+  {
+    "name": "chi_26",
+    "tag": "akhatua/cooperbench-go-chi:task26",
+    "reference": "akhatua/cooperbench-go-chi@sha256:7c20c901458147cb42d9d75d969864da5a924867c92ec9093665734bf9be4526",
+    "digest": "sha256:7c20c901458147cb42d9d75d969864da5a924867c92ec9093665734bf9be4526",
+    "index_digest": "sha256:82493162967558e99c6fe470323856d7902f32ac5f01852c9f74ca9d73e29f74",
+    "platform": "linux/amd64",
+    "compressed_bytes": 106006992
+  }
+]

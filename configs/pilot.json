@@ -1,0 +1,20 @@
+{
+  "protocol_id": "p0-fourconditions-high-v6",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "execution_limits": {
+    "worker_tool_calls": null,
+    "development_seconds": null,
+    "model_turn_seconds": null,
+    "token_count": null
+  },
+  "funding": {
+    "source": "subscription_or_credits",
+    "admission": "live_funding_availability",
+    "allow_existing_credits": true,
+    "on_unknown": "interrupt",
+    "on_exhaustion": "interrupt",
+    "minimum_remaining_percent_to_start": {}
+  },
+  "formal_protocol_frozen": false
+}

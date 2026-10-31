@@ -1,0 +1,16 @@
+{
+  "static": {
+    "trigger": "none"
+  },
+  "periodic": {
+    "trigger": "fixed_interval",
+    "interval_seconds": 60,
+    "busy_behavior": "skip_tick",
+    "pause_workers": true
+  },
+  "adaptive": {
+    "trigger": "qualified_event",
+    "busy_behavior": "coalesce_then_revalidate",
+    "pause_workers": true
+  }
+}

@@ -1,0 +1,14 @@
+# Editable Git install with no remote (click==8.2.0.dev0)
+-e /workspace/repo
+execnet==2.1.2
+iniconfig==2.3.0
+packaging==26.2
+pip==26.1.2
+pluggy==1.6.0
+Pygments==2.20.0
+pytest==9.1.0
+pytest-mock==3.15.1
+pytest-xdist==3.8.0
+setuptools==79.0.1
+uv==0.11.21
+wheel==0.45.1
